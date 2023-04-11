@@ -16,7 +16,7 @@ const [application,setApplication]=useState(datas)
         setApplication(collectremotejob)  
 }
 const findFulltimeJob=()=>{
-const collectFulltimejob=datas.filter(job=>job.fulltime=="Full-time")
+const collectFulltimejob=datas.filter(job=>job.remote_or_onsite=="Onsite")
 setApplication(collectFulltimejob)
 }
     return (
@@ -26,7 +26,7 @@ setApplication(collectFulltimejob)
             <h1 className='text-2xl font-bold mb-2'>Filter By</h1>
             <div className='flex gap-5 place-content-end'>
                  <button onClick={()=>findingRemotejob()} className='border-2 p-4 rounded-md bg-gray-200'> Remote</button>
-                <button onClick={()=>findFulltimeJob()} className='border-2 p-4  rounded-md bg-gray-200'>Full Time</button>           
+                <button onClick={()=>findFulltimeJob()} className='border-2 p-4  rounded-md bg-gray-200'>Onsite</button>           
             </div>
         </div>
                 {
