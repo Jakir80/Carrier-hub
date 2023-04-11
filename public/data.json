@@ -1,0 +1,110 @@
+
+ [
+      {
+        "id": 1,
+        "company_logo": "https://imgtr.ee/images/2023/04/09/nJdJl.png",
+        "job_title": "Software Engineer",
+        "company_name": "Example Inc.",
+        "remote_or_onsite": "Onsite",
+        "location": "San Francisco, CA",
+        "fulltime": "Full-time",
+        "parttime":"part-time",
+        "salary": "$120,000 - $140,000",
+        "job_description": "Example Inc. is seeking an experienced software engineer to join our team.",
+        "job_responsibility": "Responsibilities include designing, developing, and testing software applications.",
+        "educational_requirements": "Bachelor's degree in Computer Science or related field.",
+        "experiences": "Minimum of 5 years of professional experience in software engineering.",       
+        "phone": "555-5678",
+        "email": "product@example.com"
+        
+      },
+      {
+        "id": 2,
+        "company_logo": "https://imgtr.ee/images/2023/04/09/nJ5em.png",
+        "job_title": "Product Manager",
+        "company_name": "Example Inc.",
+        "remote_or_onsite": "Remote",
+        "location": "Anywhere",
+        "fulltime": "Full-time",
+        "parttime":"part-time",
+        "salary": "$140,000 - $160,000",
+        "job_description": "Example Inc. is seeking an experienced product manager to lead product development efforts.",
+        "job_responsibility": "Responsibilities include conducting market research, defining product requirements, and leading cross-functional teams.",
+        "educational_requirements": "Bachelor's degree in Business, Engineering, or related field.",
+        "experiences": "Minimum of 7 years of professional experience in product management.",
+        "phone": "555-5678",
+        "email": "product@example.com"
+      },
+      {
+        "id": 3,
+        "company_logo": "https://imgtr.ee/images/2023/04/09/nJA1B.png",
+        "job_title": "Data Scientist",
+        "company_name": "Example Inc.",
+        "remote_or_onsite": "Onsite",
+        "location": "New York City, NY",
+         "fulltime": "Full-time",
+        "parttime":"remote",
+        "salary": "$130,000 - $150,000",
+        "job_description": "Example Inc. is seeking an experienced data scientist to develop and implement data-driven solutions.",
+        "job_responsibility": "Responsibilities include analyzing large datasets, developing predictive models, and communicating insights to stakeholders.",
+        "educational_requirements": "Master's degree in Data Science, Statistics, or related field.",
+        "experiences": "Minimum of 3 years of professional experience in data science.",
+        "phone": "555-5678",
+        "email": "product@example.com"
+      },
+      {
+        "id": 4,
+        "company_logo": "https://imgtr.ee/images/2023/04/09/nJA1B.png",
+        "job_title": "Marketing Coordinator",
+        "company_name": "Example Inc.",
+        "remote_or_onsite": "Onsite",
+        "location": "Los Angeles, CA",
+        "fulltime": "Full-time",
+        "parttime":"onsite",
+        "salary": "$30,000 - $40,000",
+        "job_description": "Example Inc. is seeking a marketing coordinator to assist with marketing campaigns and events.",
+        "job_responsibility": "Responsibilities include coordinating events, creating marketing materials, and conducting market research.",
+        "educational_requirements": "Master's degree in Data Science, Statistics, or related field.",
+        "experiences": "Minimum of 3 years of professional experience in data science.",
+        "phone": "555-5678",
+        "email": "product@example.com"
+      },
+      {
+        "id": 5,
+        "company_logo": "https://imgtr.ee/images/2023/04/09/nJA1B.png",
+        "job_title": "Marketing Coordinator",
+        "company_name": "Example Inc.",
+        "remote_or_onsite": "Onsite",
+        "location": "Los Angeles, CA",
+        "fulltime": "Full-time",
+        "parttime":"remote",
+        "salary": "$30,000 - $40,000",
+        "job_description": "Example Inc. is seeking a marketing coordinator to assist with marketing campaigns and events.",
+        "job_responsibility": "Responsibilities include coordinating events, creating marketing materials, and conducting market research.",
+        "educational_requirements": "Master's degree in Data Science, Statistics, or related field.",
+        "experiences": "Minimum of 3 years of professional experience in data science.",
+        "phone": "555-5678",
+        "email": "product@example.com"
+      },
+      {
+        "id": 6,
+        "company_logo": "https://imgtr.ee/images/2023/04/09/nJA1B.png",
+        "job_title": "Software Engineer",
+        "company_name": "Example Inc.",
+        "remote_or_onsite": "Onsite",
+        "location": "San Francisco, CA",
+        "fulltime": "Full-time",
+        "parttime":"part-time",
+        "salary": "$120,000 - $140,000",
+        "job_description": "Example Inc. is seeking an experienced software engineer to join our team.",
+        "job_responsibility": "Responsibilities include designing, developing, and testing software applications.",
+        "educational_requirements": "Bachelor's degree in Computer Science or related field.",
+        "experiences": "Minimum of 5 years of professional experience in software engineering.",
+        "phone": "555-5678",
+        "email": "product@example.com"
+      }
+    ]
+
+    
+      
+      
