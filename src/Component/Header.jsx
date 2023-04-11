@@ -32,7 +32,7 @@ const Header = () => {
             <li>
               <NavLink
                 to='/'
-                aria-label='Shop'
+                aria-label='home'
                 title='Home'
                 className={({ isActive }) => (isActive ? 'font-medium tracking-wide text-cyan-600 transition-colors duration-200' : 'font-medium tracking-wide text-gray-700 transition-colors duration-200 hover:text-cyan-600')}
               >

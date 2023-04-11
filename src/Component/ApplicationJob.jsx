@@ -16,7 +16,7 @@ const ApplicationJob = () => {
         <div>
             <div>
                 <div className=' bg-gray-200'>
-                    <div className=' mr-5 ml-5 md:flex md:gap-40 md:pt-40 md:ml-32 md:mr-32  '>
+                    <div className=' md:flex md:gap-40 md:pt-40 md:ml-32 md:mr-32  '>
                         <div className='md:pt-10'>
                             <h1 className='text-5xl font-bold text-black'>One Step <br /> Closer To Your  <br /> </h1><br />
                             <span className='text-5xl font-bold text-blue-400 mt-10'> Dream Job</span>
