@@ -8,8 +8,8 @@ const Card = ({singlecard}) => {
         <div>
             <div className='md:ml-32 md:mr-32 md:mt-40 border-2 border-gray-300 md:p-5 rounded-md  md:w-auto md:py-10 md:h-auto gap-10'>
                 <div className='w-40 mb-5'><img src={company_logo} alt="" /></div>
-                <h1>{company_name}</h1>
-                <h1>{job_title}</h1>
+                <h1 className='font-bold text-2xl text-black'>{job_title}</h1>
+                <h1 className='font-semibold mt-2 mb-2 text-xl'>{company_name}</h1>
     <div className='flex gap-5'>
         <button className='border-2 border-blue-600 p-2 rounded-md text-blue-700 font-bold'> {fulltime}</button>
         <button className='border-2 text-blue-700 font-bold border-blue-600 p-2 rounded-md'> {parttime}</button>

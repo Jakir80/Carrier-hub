@@ -28,7 +28,7 @@ const ApplicationJob = () => {
                     <button className='btn  rounded-md bg-blue-600 mt-10 text-white p-4 font-bold text-2xl'>Apply Now</button>
                 </div>
             <div className=' bg-gray-200 md:-mt-36 md:pl-20'>
-            <img src="image-1.png" alt="" />
+            <img src="https://i.ibb.co/d5ZCcFw/P3-OLGJ1-copy-1.png" alt="P3-OLGJ1-copy-1" border="0"></img>
             </div>
 
             </div>
@@ -38,12 +38,12 @@ const ApplicationJob = () => {
         <h1 className='text-4xl font-bold text-black'>Job Category List</h1>
         <p className='font-bold'>Explore thousands of job opportunities with all the information you need. Its your future</p>
        </div>
-       <div className='grid md:grid-cols-4 gap-2 md:mt-40'>
+       <div className='flex  md:mt-40 justify-between'>
         {
           categories.map(singleCategory=><Category key={singleCategory.id} singleCategory={singleCategory}></Category>)  
         }
        </div>
-       <div className="md:grid md:grid-cols-2 justify-between m-auto sm:grid sm:grid-cols-1  gap-5">
+       <div className="md:grid md:grid-cols-2 justify-between m-auto sm:grid sm:grid-cols-1  gap-5 mb-10">
         {
             card.map(singlecard=><Card key={singlecard.id} singlecard={singlecard}></Card>)
         }
