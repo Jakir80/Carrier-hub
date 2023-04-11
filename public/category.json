@@ -5,7 +5,7 @@
         "category": "Software Development",
         "title": "Full Stack Web Developer",
         "description": "100+ Jobs Available",
-       "img":"https://images.unsplash.com/photo-1573621622238-f7ac6ac0429a?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80"
+       "img":"https://i.ibb.co/gZYHKY9/social-media-1.png" 
         
       },
       {
@@ -13,14 +13,14 @@
         "category": "Marketing",
         "title": "Digital Marketing Manager",
         "description": "200+ Jobs Available",
-        "img":"https://images.unsplash.com/photo-1532012197267-da84d127e765?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80"
+        "img":"https://i.ibb.co/Pt5HBsX/Group-1.png"
       },
       {
         "id": 3,
         "category": "Finance",
         "title": "Financial Analyst",
         "description": "300+ Jobs Available",
-        "img":"https://images.unsplash.com/photo-1573621622238-f7ac6ac0429a?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80"
+        "img":"https://i.ibb.co/rF72BN9/chip-1.png"
 
         
       },
@@ -29,7 +29,7 @@
         "category": "Human Resources",
         "title": "HR Manager",
         "description": "150+ Jobs Available",
-        "img":"https://images.unsplash.com/photo-1573621622238-f7ac6ac0429a?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80"
+        "img":"https://i.ibb.co/gZYHKY9/social-media-1.png" 
       }
     ]
   

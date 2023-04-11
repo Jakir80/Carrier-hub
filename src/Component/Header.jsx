@@ -38,8 +38,7 @@ const Header = () => {
             >
               Home
             </NavLink>
-          </li>
-        
+          </li>        
           <li>
             <NavLink
               to='/blog'
