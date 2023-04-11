@@ -50,7 +50,7 @@ const Header = () => {
               </NavLink>
             </li>
           </ul>
-          <button className='btn bg-blue-700 p-4 text-white font-bold text-2xl rounded-md'>Apply now </button>
+          <button className='btn bg-blue-700 p-4 text-white font-bold text-2xl rounded-md'>Start Applying</button>
           <div className='lg:hidden'>
             <button
               aria-label='Open Menu'

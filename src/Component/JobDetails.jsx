@@ -32,21 +32,25 @@ const JobDetails = () => {
                <h1 className='font-bold text-2xl mt-5 mb-5'>Experience</h1>
                <span>{details.experiences}</span>
             </div>
-            <div className='mt-5 bg-gray-200 md:p-4 rounded-md'>
-               <h1 className='text-center font-bold text-2xl mb-4 '>Job details</h1>
+            <div className='mt-5 bg-blue-200 md:p-4 rounded-md'>
+               <h1 className=' font-bold text-2xl mb-4 '>Job details</h1>
+              <div className='border-2 bg-blue-400'>
                <hr />
-               <div className='flex justify-evenly gap-5 mt-4 items-center'>
+              </div>
+               <div className='flex  gap-5 mt-4 items-center'>
                   <CurrencyDollarIcon className='h-6 w-6 text-blue-500' />
                   <span>Salary:</span>
                   <h1>{details.salary}</h1>
                </div>
-               <div className='flex justify-center gap-5 mt-4 items-center'>
+               <div className='flex gap-5 mt-4 items-center'>
                   <CalendarDaysIcon className='h-6 w-6 text-blue-500' />
                   <span>Job title:</span>
                   <h1>{details.job_title}</h1>
                </div>
                <h1 className='font-bold text-center text-2xl mb-2 mt-2'>Contact information</h1>
+               <div className='border-2 bg-blue-400'>
                <hr />
+              </div>
                <div className='flex gap-5 mt-4 items-center '>
                   <PhoneIcon className='h-6 w-6 text-blue-500' />
                   <span>Phone:</span>
@@ -64,7 +68,9 @@ const JobDetails = () => {
                </div>
                <Link to='/static'><button className='btn font-bold bg-blue-600 p-4 text-white mt-5 items-center w-full mb-0 rounded-md' onClick={() => store(details.id)}>Apply Now</button></Link>
             </div>
+            
          </div>
+
       </div>
    );
 };

@@ -6,7 +6,7 @@ const Card = ({ singlecard }) => {
     return (
    <div>
          <div>
-            <div className=' md:mt-40 border-2 border-gray-300 md:p-5 rounded-md  md:w-auto md:py-10 md:h-auto gap-10'>
+            <div className=' p-5 md:mt-40 border-2 border-gray-300 md:p-5 rounded-md  md:w-auto md:py-10 md:h-auto gap-10 mb-5 pb-5 '>
                 <div className='w-40 mb-5'><img src={company_logo} alt="" /></div>
                 <h1 className='font-bold text-2xl text-black'>{job_title}</h1>
                 <h1 className='font-semibold mt-2 mb-2 text-xl'>{company_name}</h1>
