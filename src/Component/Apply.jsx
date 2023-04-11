@@ -2,9 +2,11 @@ import { CurrencyDollarIcon, MapPinIcon } from '@heroicons/react/24/solid';
 import React from 'react';
 import { Link } from 'react-router-dom';
 const Apply = ({ data }) => {
-    const { company_logo, job_title, company_name, remote_or_onsite, location, parttime, fulltime, salary } = data
+    const { company_logo, job_title, company_name, remote_or_onsite, location, parttime, fulltime, salary,id } = data
     return (
-        <div className='flex justify-between items-center border-gray-300 border-2 p-4 rounded-md mb-4'>
+      <div>
+    
+          <div className='flex justify-between items-center border-gray-300 border-2 p-4 rounded-md mb-4'>
             <div className='flex gap-5 rounded-md  mb-4 p-4 items-center'>
                 <div className='w-25 h-25 bg-gray-200 md:p-12'><img src={company_logo} alt="" /></div>
                 <div>
@@ -22,8 +24,10 @@ const Apply = ({ data }) => {
                     </div>
                 </div>
             </div>
-            <div><Link to='/job'><button className=' bg-blue-500 rounded-md p-6 text-white font-bold text-2xl'>view details</button></Link></div>
+            <Link to={`/job/${id}`}>
+                    <button className='btn bg-blue-600 rounded-md text-white  text-2xl p-2 mt-4'>View Details</button></Link>  
         </div>
+      </div>
 
     );
 };

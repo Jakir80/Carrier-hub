@@ -26,7 +26,7 @@ const Rechart = () => {
         {
             id: 5,
             name: "Assignment-5",
-            Marks: 60,
+            Marks: 56,
         },
         {
             id: 6,
@@ -45,8 +45,8 @@ const Rechart = () => {
         }
     ]
     return (
-        <div>
-            <AreaChart
+        <div className=' mt-16'>
+            <AreaChart className='mx-auto'
                 width={1100}
                 height={600}
                 data={charts}

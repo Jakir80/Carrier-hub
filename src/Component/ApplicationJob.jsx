@@ -1,18 +1,17 @@
-import React, { useEffect, useState } from 'react';
+import React, { useState } from 'react';
+// import { useLoaderData } from 'react-router-dom';
 import { useLoaderData } from 'react-router-dom';
 import Card from './Card';
 import Category from './Category';
 const ApplicationJob = () => {
-    const [card, setCard] = useState([])
-    useEffect(() => {
-        fetch('/data.json')
-            .then(res => res.json())
-            .then(data => setCard(data))
-    }
-        , [])
-    const categories = useLoaderData()
+   const card=useLoaderData()
+    const [categories,setcategories]=useState([])
+    fetch('/category.json')
+    .then(res=>res.json())
+    .then(data=>setcategories(data))
     return (
         <div>
+            <div>
             <div className=' bg-gray-200'>
                 <div className='md:flex md:gap-40 md:pt-40 md:ml-32 md:mr-32 '>
                     <div className='md:pt-10'>
@@ -33,16 +32,24 @@ const ApplicationJob = () => {
                 <h1 className='text-4xl font-bold text-black'>Job Category List</h1>
                 <p className='font-bold'>Explore thousands of job opportunities with all the information you need. Its your future</p>
             </div>
-            <div className='flex  md:mt-40 justify-between'>
+            <div className='grid  md:mt-40 grid-cols-4  gap-10 md:mr-32 md:ml-32'>
                 {
                     categories.map(singleCategory => <Category key={singleCategory.id} singleCategory={singleCategory}></Category>)
                 }
             </div>
-            <div className="md:grid md:grid-cols-2 justify-between m-auto sm:grid sm:grid-cols-1  gap-5 mb-10">
+            <div className="md:grid md:grid-cols-2 justify-between m-auto sm:grid sm:grid-cols-1 md:ml-32 md:mr-32 gap-5 mb-10">
                 {
                     card.map(singlecard => <Card key={singlecard.id} singlecard={singlecard}></Card>)
                 }
+          
             </div>
+        
+        <div className='text-center'>
+            <div> <button className='bg-blue-700 p-4 align-middle md:ml-32 md:mr-32 text-white text-2xl font-bold rounded-md mb-5 '>See All Jobs</button></div>
+        </div>
+               
+        </div>
+ 
         </div>
     );
 };

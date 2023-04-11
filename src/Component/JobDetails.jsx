@@ -47,17 +47,17 @@ const JobDetails = () => {
                </div>
                <h1 className='font-bold text-center text-2xl mb-2 mt-2'>Contact information</h1>
                <hr />
-               <div className='flex gap-5 mt-4 items-center justify-center'>
+               <div className='flex gap-5 mt-4 items-center '>
                   <PhoneIcon className='h-6 w-6 text-blue-500' />
                   <span>Phone:</span>
                   <h1>{details.phone}</h1>
                </div>
-               <div className='flex gap-5 mt-4 items-center justify-center'>
+               <div className='flex gap-5 mt-4 items-center '>
                   <InboxArrowDownIcon className='h-6 w-6 text-blue-500' />
                   <span>Email:</span>
                   <h1>{details.email}</h1>
                </div>
-               <div className='flex justify-center gap-5 mt-4 items-center'>
+               <div className='flex  gap-5 mt-4 items-center'>
                   <MapIcon className='h-6 w-6 text-blue-500' />
                   <span>Address:</span>
                   <h1>{details.location}</h1>
