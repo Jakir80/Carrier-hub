@@ -20,7 +20,9 @@ const router = createBrowserRouter([
     children: [
       {
         path: '/rechart',
-        element: <Rechart></Rechart>
+        element: <Rechart></Rechart>,
+     
+
       },
       {
         path: '/blog',
