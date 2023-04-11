@@ -5,6 +5,7 @@ import {
   RouterProvider,
 } from "react-router-dom";
 import App from "./App";
+import Blog from "./Blog";
 import ApplicationJob from "./Component/ApplicationJob";
 import ErrorPage from "./Component/ErroPage";
 import JobDetails from "./Component/JobDetails";
@@ -21,6 +22,9 @@ const router = createBrowserRouter([
   
       { path: '/rechart',     
       element:<Rechart></Rechart>
+    },
+      { path: '/blog',     
+      element:<Blog></Blog>
     },
       { path: 'job/:jobId',     
       element:<JobDetails></JobDetails>,

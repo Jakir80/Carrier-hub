@@ -23,7 +23,7 @@ const Apply = ({data}) => {
                         </div>
                 </div>
             </div>
-         <div><Link to='/job'><button className=' bg-blue-500 rounded-md p-6 text-white font-bold text-2xl'>view details apply</button></Link></div>
+         <div><Link to='/job'><button className=' bg-blue-500 rounded-md p-6 text-white font-bold text-2xl'>view details</button></Link></div>
         </div>
     
     );

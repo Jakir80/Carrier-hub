@@ -12,7 +12,7 @@ const Header = () => {
         <li>
             <NavLink
               to='/rechart'
-              aria-label='About Us'
+              aria-label='Rechart'
               title='Rechart'
               className={({ isActive }) => (isActive ? 'font-medium tracking-wide text-cyan-600 transition-colors duration-200' : 'font-medium tracking-wide text-gray-700 transition-colors duration-200 hover:text-cyan-600')}
             >
@@ -42,9 +42,9 @@ const Header = () => {
         
           <li>
             <NavLink
-              to='/about'
-              aria-label='About Us'
-              title='About Us'
+              to='/blog'
+              aria-label='blog'
+              title='blog'
               className={({ isActive }) => (isActive ? 'font-medium tracking-wide text-cyan-600 transition-colors duration-200' : 'font-medium tracking-wide text-gray-700 transition-colors duration-200 hover:text-cyan-600')}
             >
            Blogs 
@@ -102,22 +102,32 @@ const Header = () => {
                   </div>
                 </div>
                 <nav>     
-                <ul className='space-y-4'>     
+                <ul className='space-y-4'> 
+                <li>
+            <NavLink
+              to='/'
+              aria-label='home'
+              title='Home'
+              className={({ isActive }) => (isActive ? 'font-medium tracking-wide text-cyan-600 transition-colors duration-200' : 'font-medium tracking-wide text-gray-700 transition-colors duration-200 hover:text-cyan-600')}
+            >
+              Home
+            </NavLink>
+          </li>    
              <li>
             <Link
-              to='/home'
-              aria-label='Home'
-              title='Home'
-              className=' tracking-wide text-white font-bold transition-colors duration-200 hover:text-deep-purple-accent-400'
+              to='/rechart'
+              aria-label='Rechart'
+              title='Rechart'
+              className=' tracking-wide font-bold transition-colors duration-200 hover:text-deep-purple-accent-400'
               >           
              Statistics
             </Link>
           </li>
                     <li>
                       <Link
-                        to='/ApplicationJob'
-                        aria-label='About Us'
-                        title='About Us'
+                        to='/static'
+                        aria-label='Apply jobs'
+                        title='Apply Jobs'
                         className='font-medium tracking-wide text-gray-700 transition-colors duration-200 hover:text-deep-purple-accent-400'
                       >
                      Apply jobs 
@@ -125,12 +135,12 @@ const Header = () => {
                     </li>
                     <li>
                       <Link
-                        to='/about'
-                        aria-label='About Us'
-                        title='About Us'
+                        to='/blog'
+                        aria-label='Blog'
+                        title='Blog'
                         className='font-medium tracking-wide text-gray-700 transition-colors duration-200 hover:text-deep-purple-accent-400'
                       >
-                 Blogs
+                       Blogs
                       </Link>
                     </li>
                   </ul>
