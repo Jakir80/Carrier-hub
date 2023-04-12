@@ -11,4 +11,13 @@ Component has a somd marks with assignment making a Chart
 See some questions answer.  
 * We can filter job which type of job we want look like onsite 
 Or remote or part time or full time. 
-* There is some categories information.  
+* There is some categories information.
+* Live site Link:   https://scintillating-maamoul-36874c.netlify.app/
+* This project have a some features job categories and also another
+Categories. 
+About Myself
+* I am Md jakir Hossain student of programming hero 
+7batch. 
+I am a studuies now diploma in computer science
+And Technology, 5th semester in Mymensingh Polytechnic 
+Institute. 
